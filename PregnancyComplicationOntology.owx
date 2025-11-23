@@ -1,0 +1,3037 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sada/ontologies/2024/9/PregnancyOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sada/ontologies/2024/9/PregnancyOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/sada/ontologies/2024/9/PregnancyOntology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="pregComplication" IRI="http://www.semanticweb.org/sada/ontologies/2024/8/pregComplication#"/>
+    <Prefix name="correctpregnancyontology" IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Pregnancy Complication OWL Ontology                           
+                                                                  
+      Author: Seada Abdella                                  
+      Acknowlegements: Many thanks to the following people for    
+                       their invaluable input:                    
+                         DR.Million Meshesha and Mrs Jemal Abate</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:AnemiaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:Anticonvulsants"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:CalciumGlucate"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:Diazepem"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:Hydralazine"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:Labetalol"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="pregComplication:MagnesiumSulphate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abortion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbortionClinicalFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbortionComplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbortionTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnemiaComplication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anesthesiologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntihypertesiveMedication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodPressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diuretis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eclampsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EclampsiaClinicalFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EclampsiaComplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EclampsiaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyPhysician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GestationalPeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestational_hypertension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestational_hypertensionClinicalFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestational_hypertensionComplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gynecologist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HCG_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthExtensionWorker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthProfessional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lab-Tests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaternalFetalMedicineSpecialist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midwife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPharmacolgy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonPregnantPatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nurse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nutritionist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstetrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientGravida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientPara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preeclampsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreeclampsiaClinicalFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreeclampsiaComplications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PregnancyComplication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PregnantPatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreviousHistory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proteinuria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychiatrist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportiveCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surgical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UltrasoundTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urinalysis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasComplication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasLab"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PrescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collaborationswith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAlternativeTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalFeature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHealthRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrimaryCarePhysician"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRecommendedTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSameMedicalConditionAS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUltrasoundResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTreatedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GestationalAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PreviousComplication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UltrasoundResult"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UrineHCG"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VaginalBleeding"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFetalMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbdominalPain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbnormalBodyMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abortion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Absent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbsentFetalMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adolescent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AdvancedAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BedRest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bed_Rest_Lateral_Position"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blood_Transfusion_if_Hb_less_than_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BscMidwife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calcium_Gluconate_1g_IV_Stat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catherization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Death"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecreaseFetalMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeliveryOfBaby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diazepem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DiplomaMidwife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EasyFatigability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EmptyUterus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EstablishAirWay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FirstTrimester"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Folic_Acid_5mg_daily"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeartFailure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hemarrhage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighBloodPressure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighBloodPressureWithoutProteinuria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hydralazine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Infetility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iron_Sulphate_325mg_tid_3month"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iron_Sulphate_325mg_tid_3months"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Labetalol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LossOfConscious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowBirthWeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowBloodPressure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MagnesiumSulfate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ManualVacumApiration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MasterMidwife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Methyldopa_250_500mg_PO_8_12hourly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mifepristone_200mg_oral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Misoprostol_800mcg_buccal_vaginal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultiGrandGravida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultiGrandPara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultiGravida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultiPara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nifedipine_10_40mg_12hourly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nifedipine_10_40mg_PO_12hourly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NormalBloodPressure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NulliPara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paleness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PassageOfTissue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PostpartumDepression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Preeclampsia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Present"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PretermDeliver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrimiGravida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrimiPara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgressToEclampsia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgressToPreeclampsia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proteinuria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReducedBloodFlowToThePlacenta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiskForFutureCardioVascularDisease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RiskOfInfection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaltFreeDiet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondTrimester"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seizure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sepsis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ShortnessOfBreath"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stroke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swelling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThirdTrimester"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tinnitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VaginalBleeding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VitalOrganDamage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#female1"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:AnemiaTreatment"/>
+        <Class IRI="#Anemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:Anticonvulsants"/>
+        <Class IRI="#EclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:CalciumGlucate"/>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:Diazepem"/>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:Hydralazine"/>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:Labetalol"/>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="pregComplication:MagnesiumSulphate"/>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abortion"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbortionClinicalFeatures"/>
+        <Class IRI="#Abortion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbortionComplications"/>
+        <Class IRI="#Abortion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbortionTreatment"/>
+        <Class IRI="#Abortion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anemia"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+        <Class IRI="#Anemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnemiaComplication"/>
+        <Class IRI="#Anemia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anesthesiologist"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntihypertesiveMedication"/>
+        <Class IRI="#EclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodPressure"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diagnosis"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diuretis"/>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eclampsia"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EclampsiaClinicalFeatures"/>
+        <Class IRI="#Eclampsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EclampsiaComplications"/>
+        <Class IRI="#Eclampsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EclampsiaTreatment"/>
+        <Class IRI="#Eclampsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyPhysician"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GestationalPeriod"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestational_hypertension"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestational_hypertensionClinicalFeatures"/>
+        <Class IRI="#Gestational_hypertension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestational_hypertensionComplications"/>
+        <Class IRI="#Gestational_hypertension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+        <Class IRI="#Gestational_hypertension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gynecologist"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HCG_Test"/>
+        <Class IRI="#Urinalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthExtensionWorker"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthProfessional"/>
+        <Class IRI="#PregnancyComplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lab-Tests"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaternalFetalMedicineSpecialist"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical"/>
+        <Class IRI="#AbortionTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midwife"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPharmacolgy"/>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonPregnantPatient"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nurse"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nutritionist"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstetrician"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <Class IRI="#PregnancyComplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientAge"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientGravida"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientPara"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientRecord"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatrician"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preeclampsia"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreeclampsiaClinicalFeatures"/>
+        <Class IRI="#Preeclampsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreeclampsiaComplications"/>
+        <Class IRI="#Preeclampsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreeclampsiaTreatment"/>
+        <Class IRI="#Preeclampsia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PregnantPatient"/>
+        <Class IRI="#Patient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreviousHistory"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proteinuria"/>
+        <Class IRI="#Urinalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychiatrist"/>
+        <Class IRI="#HealthProfessional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportiveCare"/>
+        <Class IRI="#EclampsiaTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surgical"/>
+        <Class IRI="#AbortionTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#PregnancyComplication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UltrasoundTest"/>
+        <Class IRI="#PatientRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urinalysis"/>
+        <Class IRI="#Lab-Tests"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#AbortionClinicalFeatures"/>
+        <NamedIndividual IRI="#AbdominalPain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EclampsiaClinicalFeatures"/>
+        <NamedIndividual IRI="#AbnormalBodyMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proteinuria"/>
+        <NamedIndividual IRI="#Absent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UltrasoundTest"/>
+        <NamedIndividual IRI="#AbsentFetalMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientAge"/>
+        <NamedIndividual IRI="#Adolescent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientAge"/>
+        <NamedIndividual IRI="#AdvancedAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+        <NamedIndividual IRI="#Bed_Rest_Lateral_Position"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="pregComplication:AnemiaTreatment"/>
+        <NamedIndividual IRI="#Blood_Transfusion_if_Hb_less_than_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Midwife"/>
+        <NamedIndividual IRI="#BscMidwife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaTreatment"/>
+        <NamedIndividual IRI="#Calcium_Gluconate_1g_IV_Stat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SupportiveCare"/>
+        <NamedIndividual IRI="#Catherization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EclampsiaComplications"/>
+        <NamedIndividual IRI="#Death"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbortionClinicalFeatures"/>
+        <NamedIndividual IRI="#DecreaseFetalMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SupportiveCare"/>
+        <NamedIndividual IRI="#DeliveryOfBaby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="pregComplication:Anticonvulsants"/>
+        <NamedIndividual IRI="#Diazepem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Midwife"/>
+        <NamedIndividual IRI="#DiplomaMidwife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+        <NamedIndividual IRI="#EasyFatigability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UltrasoundTest"/>
+        <NamedIndividual IRI="#EmptyUterus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SupportiveCare"/>
+        <NamedIndividual IRI="#EstablishAirWay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anemia"/>
+        <NamedIndividual IRI="#Female2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eclampsia"/>
+        <NamedIndividual IRI="#Female3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preeclampsia"/>
+        <NamedIndividual IRI="#Female4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertension"/>
+        <NamedIndividual IRI="#Female5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GestationalPeriod"/>
+        <NamedIndividual IRI="#FirstTrimester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="pregComplication:AnemiaTreatment"/>
+        <NamedIndividual IRI="#Folic_Acid_5mg_daily"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaComplication"/>
+        <NamedIndividual IRI="#HeartFailure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbortionComplications"/>
+        <NamedIndividual IRI="#Hemarrhage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaClinicalFeatures"/>
+        <NamedIndividual IRI="#HighBloodPressure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertensionClinicalFeatures"/>
+        <NamedIndividual IRI="#HighBloodPressureWithoutProteinuria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AntihypertesiveMedication"/>
+        <NamedIndividual IRI="#Hydralazine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbortionComplications"/>
+        <NamedIndividual IRI="#Infetility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="pregComplication:AnemiaTreatment"/>
+        <NamedIndividual IRI="#Iron_Sulphate_325mg_tid_3month"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AntihypertesiveMedication"/>
+        <NamedIndividual IRI="#Labetalol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EclampsiaClinicalFeatures"/>
+        <NamedIndividual IRI="#LossOfConscious"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaComplication"/>
+        <NamedIndividual IRI="#LowBirthWeight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BloodPressure"/>
+        <NamedIndividual IRI="#LowBloodPressure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="pregComplication:Anticonvulsants"/>
+        <NamedIndividual IRI="#MagnesiumSulfate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Surgical"/>
+        <NamedIndividual IRI="#ManualVacumApiration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Midwife"/>
+        <NamedIndividual IRI="#MasterMidwife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaTreatment"/>
+        <NamedIndividual IRI="#Methyldopa_250_500mg_PO_8_12hourly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medical"/>
+        <NamedIndividual IRI="#Mifepristone_200mg_oral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medical"/>
+        <NamedIndividual IRI="#Misoprostol_800mcg_buccal_vaginal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientGravida"/>
+        <NamedIndividual IRI="#MultiGrandGravida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientPara"/>
+        <NamedIndividual IRI="#MultiGrandPara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientGravida"/>
+        <NamedIndividual IRI="#MultiGravida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientPara"/>
+        <NamedIndividual IRI="#MultiPara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HCG_Test"/>
+        <NamedIndividual IRI="#Negative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diuretis"/>
+        <NamedIndividual IRI="#Nifedipine_10_40mg_12hourly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+        <NamedIndividual IRI="#Nifedipine_10_40mg_PO_12hourly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientAge"/>
+        <NamedIndividual IRI="#Normal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BloodPressure"/>
+        <NamedIndividual IRI="#NormalBloodPressure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientPara"/>
+        <NamedIndividual IRI="#NulliPara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+        <NamedIndividual IRI="#Paleness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbortionClinicalFeatures"/>
+        <NamedIndividual IRI="#PassageOfTissue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HCG_Test"/>
+        <NamedIndividual IRI="#Positive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaComplication"/>
+        <NamedIndividual IRI="#PostpartumDepression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proteinuria"/>
+        <NamedIndividual IRI="#Present"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaComplications"/>
+        <NamedIndividual IRI="#PretermDeliver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientGravida"/>
+        <NamedIndividual IRI="#PrimiGravida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PatientPara"/>
+        <NamedIndividual IRI="#PrimiPara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaComplications"/>
+        <NamedIndividual IRI="#ProgressToEclampsia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertensionComplications"/>
+        <NamedIndividual IRI="#ProgressToPreeclampsia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaClinicalFeatures"/>
+        <NamedIndividual IRI="#Proteinuria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertensionComplications"/>
+        <NamedIndividual IRI="#ReducedBloodFlowToThePlacenta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gestational_hypertensionComplications"/>
+        <NamedIndividual IRI="#RiskForFutureCardioVascularDisease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaComplication"/>
+        <NamedIndividual IRI="#RiskOfInfection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NonPharmacolgy"/>
+        <NamedIndividual IRI="#SaltFreeDiet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GestationalPeriod"/>
+        <NamedIndividual IRI="#SecondTrimester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EclampsiaClinicalFeatures"/>
+        <NamedIndividual IRI="#Seizure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbortionComplications"/>
+        <NamedIndividual IRI="#Sepsis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+        <NamedIndividual IRI="#ShortnessOfBreath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EclampsiaComplications"/>
+        <NamedIndividual IRI="#Stroke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaClinicalFeatures"/>
+        <NamedIndividual IRI="#Swelling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GestationalPeriod"/>
+        <NamedIndividual IRI="#ThirdTrimester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+        <NamedIndividual IRI="#Tinnitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbortionClinicalFeatures"/>
+        <NamedIndividual IRI="#VaginalBleeding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PreeclampsiaComplications"/>
+        <NamedIndividual IRI="#VitalOrganDamage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Abortion"/>
+        <NamedIndividual IRI="#female1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClinicalFeature"/>
+        <NamedIndividual IRI="#Female2"/>
+        <NamedIndividual IRI="#Paleness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClinicalFeature"/>
+        <NamedIndividual IRI="#female1"/>
+        <NamedIndividual IRI="#VaginalBleeding"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>Adolescent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">97</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>Positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>Multi_gravida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>Primi_para</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>Normal_intrauterine_pregnacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UrineHCG"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <NamedIndividual IRI="#Female2"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>Normal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>Positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">94</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>Multi_gravida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>Nulli_para</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>Normal_intrauterine_pregnacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UrineHCG"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <NamedIndividual IRI="#Female3"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>Adolescent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">138</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>Positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>Primi_gravida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>Nulli_para</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>Normal_intrauterine_pregnacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UrineHCG"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <NamedIndividual IRI="#Female4"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>Normal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">156</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">14.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>negative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">87</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>Primi_gravida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>Nulli_para</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>Normal_intrauterine_pregnacy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UrineHCG"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <NamedIndividual IRI="#Female5"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>Advance_age</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">121</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>negative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>Multi_gravida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>Multi_para</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>&apos;Retained_tissue _in_uterus&apos;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#UrineHCG"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>positive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>present</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <NamedIndividual IRI="#female1"/>
+        <Literal>absent</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClinicalFeature"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#HasComplication"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#PrescribedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#collaborationswith"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasClinicalFeature"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasHealthRecord"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasPrimaryCarePhysician"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasRiskFactor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasSameMedicalConditionAS"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasUltrasoundResult"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isTreatedBy"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasComplication"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasLab"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClinicalFeature"/>
+        <Class IRI="#Type"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUltrasoundResult"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTreatedBy"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasLab"/>
+        <Class IRI="#Lab-Tests"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUltrasoundResult"/>
+        <Class IRI="#UltrasoundTest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTreatedBy"/>
+        <Class abbreviatedIRI="pregComplication:AnemiaTreatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTreatedBy"/>
+        <Class IRI="#AbortionTreatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTreatedBy"/>
+        <Class IRI="#EclampsiaTreatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTreatedBy"/>
+        <Class IRI="#Gestational_hypertensionTreatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTreatedBy"/>
+        <Class IRI="#PreeclampsiaTreatment"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#GestationalAge"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PreviousComplication"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#UrineHCG"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <Class IRI="#PatientAge"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <Class IRI="#BloodPressure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <Class IRI="#AnemiaClinicalFeatures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <Class IRI="#Type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <Class IRI="#Lab-Tests"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <Class IRI="#Lab-Tests"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <Class IRI="#EclampsiaClinicalFeatures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <Class IRI="#BloodPressure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <Class IRI="#PatientGravida"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <Class IRI="#PreeclampsiaClinicalFeatures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <Class IRI="#PatientPara"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GestationalAge"/>
+        <Class IRI="#GestationalPeriod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PreviousComplication"/>
+        <Class IRI="#PreviousHistory"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <Class IRI="#UltrasoundTest"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UrineHCG"/>
+        <Class IRI="#Lab-Tests"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <Class IRI="#AbortionClinicalFeatures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <Class IRI="#AbortionClinicalFeatures"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:Age"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:BP_Systolic"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:EasyFatigability"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:Proteinuria"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:hasBP_Diastolic"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:hasGravida"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:hasHeadache"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="pregComplication:hasPara"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PreviousComplication"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UltrasoundResult"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UrineHCG"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#VaginalBleeding"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFetalMovement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Abortion Treatment</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Diagnosis"/>
+                <NamedIndividual IRI="#Abortion"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasRecommendedTreatment"/>
+                <NamedIndividual IRI="#Abortion"/>
+                <NamedIndividual IRI="#Mifepristone_200mg_oral"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAlternativeTreatment"/>
+                <NamedIndividual IRI="#Abortion"/>
+                <NamedIndividual IRI="#Misoprostol_800mcg_buccal_vaginal"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>AnemiaTreatment</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Diagnosis"/>
+                <NamedIndividual IRI="#Anemia"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasRecommendedTreatment"/>
+                <NamedIndividual IRI="#Anemia"/>
+                <NamedIndividual IRI="#Iron_Sulphate_325mg_tid_3months"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAlternativeTreatment"/>
+                <NamedIndividual IRI="#Anemia"/>
+                <NamedIndividual IRI="#Blood_Transfusion_if_Hb_less_than_7"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>pregnancy treatment</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Diagnosis"/>
+                <NamedIndividual IRI="#Preeclampsia"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasRecommendedTreatment"/>
+                <NamedIndividual IRI="#Preeclampsia"/>
+                <NamedIndividual IRI="#Methyldopa_250_500mg_PO_8_12hourly"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAlternativeTreatment"/>
+                <NamedIndividual IRI="#Preeclampsia"/>
+                <NamedIndividual IRI="#Calcium_Gluconate_1g_IV_Stat"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Eclampsia</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Proteinuria"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#HighBloodPressure"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/present"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Eclampsia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Preeclampsia</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Proteinuria"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#HighBloodPressure"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/present"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Eclampsia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Eclampsia with  LossOfConscious</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Proteinuria"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#LossOfConscious"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="pregComplication:Seizure"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/present"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Eclampsia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Eclampsia with AbnormalBodyMovement</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#AbnormalBodyMovement"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Eclampsia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Abortion with AbsentFetalMovement</Literal>
+        </Annotation>
+        <Body>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#AbsentFetalMovement"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Abortion"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Anemia</Literal>
+        </Annotation>
+        <Body>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/Hgb"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.5</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/Hgb"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#EasyFatigability"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Anemia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Gestational hypertension</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#HighBloodPressureWithoutProteinuria"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Gestational_hypertension"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Anemi with  Paleness</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#Paleness"/>
+            </ObjectPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/Hgb"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.5</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/Hgb"/>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Anemia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Preeclampsia with Proteinuria</Literal>
+        </Annotation>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#Proteinuria"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Preeclampsia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Preeclampsia with swelling</Literal>
+        </Annotation>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+            </DataPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:greaterThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">20</Literal>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#Proteinuria"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Preeclampsia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Anemia with  Shortness Of breath</Literal>
+        </Annotation>
+        <Body>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/Hgb"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">10.5</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="pregComplication:Hemoglobin"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/Hgb"/>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+                <NamedIndividual IRI="#ShortnessOfBreath"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Anemia"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/CorrectPregnancyOntology/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Abortion with AbdominalPain</Literal>
+        </Annotation>
+        <Body>
+            <DataPropertyAtom>
+                <DataProperty IRI="#GestationalAge"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/Owl/p"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/Owl/GA"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:lessThanOrEqual">
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/Owl/GA"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">28</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class IRI="#Patient"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/Owl/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasClinicalFeature"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/Owl/p"/>
+                <NamedIndividual IRI="#AbdominalPain"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Abortion"/>
+                <Variable IRI="http://www.semanticweb.org/sada/ontologies/2024/9/Owl/p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Age</AbbreviatedIRI>
+        <Literal xml:lang="en">The age of the patient, typically measured in years</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Age</AbbreviatedIRI>
+        <Literal xml:lang="en">Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:AnemiaTreatment</AbbreviatedIRI>
+        <Literal xml:lang="en">Represents the range of medical interventions and therapeutic protocols aimed at alleviating anemia. This includes strategies to restore normal hemoglobin levels and red blood cell counts by addressing deficiencies, mitigating blood loss, and treating underlying causes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:AnemiaTreatment</AbbreviatedIRI>
+        <Literal xml:lang="en">AnemiaTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Anticonvulsants</AbbreviatedIRI>
+        <Literal xml:lang="en">A class of pharmacologic agents primarily used to prevent or manage seizures. Anticonvulsants work by modulating neuronal excitability and synaptic transmission, thereby reducing the occurrence and intensity of convulsive events in various neurological conditions such as epilepsy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Anticonvulsants</AbbreviatedIRI>
+        <Literal xml:lang="en">Anticonvulsants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:BP_Systolic</AbbreviatedIRI>
+        <Literal xml:lang="en">The systolic component of blood pressure, measured in millimeters of mercury (mmHg), representing the pressure in the arteries during heartbeats.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:BP_Systolic</AbbreviatedIRI>
+        <Literal xml:lang="en">BP_Systolic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:CalciumGlucate</AbbreviatedIRI>
+        <Literal xml:lang="en">A calcium supplement used to treat conditions related to calcium deficiency and as an antidote for magnesium toxicity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:CalciumGlucate</AbbreviatedIRI>
+        <Literal xml:lang="en">CalciumGlucate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Diazepem</AbbreviatedIRI>
+        <Literal xml:lang="en">A benzodiazepine medication used to treat anxiety, seizures, and muscle spasms, often used in preoperative settings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Diazepem</AbbreviatedIRI>
+        <Literal xml:lang="en">Diazepem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Hemoglobin</AbbreviatedIRI>
+        <Literal xml:lang="en">The concentration of hemoglobin in the blood, measured in grams per deciliter (g/dL), an important indicator of anemia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Hemoglobin</AbbreviatedIRI>
+        <Literal>Hemoglobin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Hydralazine</AbbreviatedIRI>
+        <Literal xml:lang="en">A vasodilator medication used to treat severe hypertension, particularly in pregnant women with hypertensive disorders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Hydralazine</AbbreviatedIRI>
+        <Literal xml:lang="en">Hydralazine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Labetalol</AbbreviatedIRI>
+        <Literal xml:lang="en">A medication used to treat high blood pressure, particularly during pregnancy-related hypertensive disorders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Labetalol</AbbreviatedIRI>
+        <Literal xml:lang="en">Labetalol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:MagnesiumSulphate</AbbreviatedIRI>
+        <Literal xml:lang="en">A medication used to prevent seizures in eclampsia and to manage certain types of arrhythmias.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:MagnesiumSulphate</AbbreviatedIRI>
+        <Literal xml:lang="en">MagnesiumSulphate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:Seizure</AbbreviatedIRI>
+        <Literal xml:lang="en">complain of seizure episodes experienced by the patient, relevant for neurological assessment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:Seizure</AbbreviatedIRI>
+        <Literal xml:lang="en">Seizure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:hasBP_Diastolic</AbbreviatedIRI>
+        <Literal xml:lang="en">The diastolic component of blood pressure, measured in millimeters of mercury (mmHg), representing the pressure in the arteries when the heart rests between beats.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:hasBP_Diastolic</AbbreviatedIRI>
+        <Literal xml:lang="en">BP_Diastolic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:hasGravida</AbbreviatedIRI>
+        <Literal xml:lang="en">The total number of pregnancies a woman has had, regardless of outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:hasGravida</AbbreviatedIRI>
+        <Literal xml:lang="en">Gravida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:hasHeadache</AbbreviatedIRI>
+        <Literal xml:lang="en">complain of headache experienced by the patient, which may  occur in preeclampsia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:hasHeadache</AbbreviatedIRI>
+        <Literal xml:lang="en">Headache</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>pregComplication:hasPara</AbbreviatedIRI>
+        <Literal xml:lang="en">The number of pregnancies that have resulted in viable offspring, regardless of whether they were born alive or stillborn.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>pregComplication:hasPara</AbbreviatedIRI>
+        <Literal xml:lang="en">Para</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Abortion</IRI>
+        <Literal xml:lang="en">The termination of a pregnancy before 28 weeks from the womb.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Abortion</IRI>
+        <Literal xml:lang="en">Abortion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbortionClinicalFeatures</IRI>
+        <Literal xml:lang="en">Represents a collection of clinical signs, symptoms, and examination findings associated with abortion events—whether spontaneous or induced. This concept encompasses indicators such as vaginal bleeding, abdominal or pelvic pain, uterine cramping, and additional diagnostic observations that support clinical evaluations and decision-making during the evaluation of an abortion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AbortionClinicalFeatures</IRI>
+        <Literal xml:lang="en">AbortionClinicalFeatures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbortionComplications</IRI>
+        <Literal xml:lang="en">Represents the adverse clinical outcomes or complications that may occur following an abortion—whether spontaneous or induced. This concept encompasses conditions such as excessive hemorrhage, infection, uterine perforation, retained products of conception, coagulopathy, and other complications that compromise patient health post-abortion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AbortionComplications</IRI>
+        <Literal xml:lang="en">AbortionComplications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbortionTreatment</IRI>
+        <Literal xml:lang="en">A medical  and surgical intervention aimed at terminating a pregnancy, which may involve various procedure and medications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AbortionTreatment</IRI>
+        <Literal xml:lang="en">AbortionTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anemia</IRI>
+        <Literal xml:lang="en">A condition characterized by a deficiency of red blood cells or hemoglobin during pregnancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anemia</IRI>
+        <Literal xml:lang="en">Anemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnemiaClinicalFeatures</IRI>
+        <Literal xml:lang="en">Represent signs and symptoms associated with anemia during pregnancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AnemiaClinicalFeatures</IRI>
+        <Literal>AnemiaClinicalFeatures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AnemiaComplication</IRI>
+        <Literal xml:lang="en">A medical complication characterized by a reduced concentration of hemoglobin and a decreased capacity of the blood to carry oxygen. It commonly arises secondary to conditions or interventions that involve blood loss, impaired red blood cell production, or increased destruction of red blood cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AnemiaComplication</IRI>
+        <Literal xml:lang="en">AnemiaComplication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anesthesiologist</IRI>
+        <Literal xml:lang="en">A physician specializing in anesthesia, particularly important during labor and delivery, especially if complications arise that require surgical intervention.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anesthesiologist</IRI>
+        <Literal xml:lang="en">Anesthesiologist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AntihypertesiveMedication</IRI>
+        <Literal xml:lang="en">A class of pharmacologic agents used to manage hypertension by lowering elevated blood pressure. These medications work via various mechanisms to reduce vascular resistance, cardiac output, or fluid volume, thereby mitigating the risk of cardiovascular events.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AntihypertesiveMedication</IRI>
+        <Literal xml:lang="en">AntihypertesiveMedication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BloodPressure</IRI>
+        <Literal xml:lang="en">The pressure exerted by circulating blood on the walls of blood vessels, typically measured in millimeters of mercury (mmHg).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BloodPressure</IRI>
+        <Literal xml:lang="en">BloodPressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eclampsia</IRI>
+        <Literal xml:lang="en">A severe complication of preeclampsia characterized by seizures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Eclampsia</IRI>
+        <Literal xml:lang="en">Eclampsia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EclampsiaClinicalFeatures</IRI>
+        <Literal xml:lang="en">A collection of clinical signs and symptoms that define the eclamptic state, characterized primarily by the occurrence of seizures in a hypertensive pregnant patient. These features help in differentiating eclampsia from other neurological and obstetric emergencies and support prompt clinical management.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EclampsiaClinicalFeatures</IRI>
+        <Literal>EclampsiaClinicalFeatures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EclampsiaComplications</IRI>
+        <Literal xml:lang="en">Represents adverse outcomes or sequelae that may arise from eclamptic events in pregnant patients. These complications can involve multiple organ systems and may include neurological, cardiovascular, renal, and hematologic dysfunction resulting either directly from seizure activity or as secondary effects of severe hypertension and associated pathophysiology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EclampsiaComplications</IRI>
+        <Literal xml:lang="en">EclampsiaComplications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EclampsiaTreatment</IRI>
+        <Literal xml:lang="en">Medical interventions aimed at managing eclampsia, a severe complication of pregnancy characterized by seizures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EclampsiaTreatment</IRI>
+        <Literal xml:lang="en">EclampsiaTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FamilyPhysician</IRI>
+        <Literal xml:lang="en">A general practitioner who provides comprehensive healthcare, including prenatal care and management of pregnancy-related issues.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FamilyPhysician</IRI>
+        <Literal xml:lang="en">FamilyPhysician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GestationalPeriod</IRI>
+        <Literal xml:lang="en">The duration of pregnancy, typically measured in weeks from the first day of the last menstrual period (LMP) to childbirth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GestationalPeriod</IRI>
+        <Literal xml:lang="en">GestationalPeriod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gestational_hypertension</IRI>
+        <Literal xml:lang="en">High blood pressure that develops during pregnancy without proteinuria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gestational_hypertension</IRI>
+        <Literal xml:lang="en">Gestational_hypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gestational_hypertensionClinicalFeatures</IRI>
+        <Literal xml:lang="en">Represent signs and symptoms associated with gestational hypertension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gestational_hypertensionClinicalFeatures</IRI>
+        <Literal xml:lang="en">Gestational_hypertensionClinicalFeatures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gestational_hypertensionComplications</IRI>
+        <Literal xml:lang="en">Represents adverse maternal and fetal outcomes that may develop as a consequence of gestational hypertension. This concept encompasses complications resulting from elevated blood pressure during pregnancy, such as progression to preeclampsia, placental abruption, fetal growth restriction, and preterm delivery, all of which can significantly impact maternal and neonatal health.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gestational_hypertensionComplications</IRI>
+        <Literal xml:lang="en">Gestational_hypertensionComplications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gestational_hypertensionTreatment</IRI>
+        <Literal xml:lang="en">Medical interventions aimed at managing high blood pressure that develops during pregnancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gestational_hypertensionTreatment</IRI>
+        <Literal xml:lang="en">Gestational_hypertensionTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gynecologist</IRI>
+        <Literal xml:lang="en">A specialist who can provide dietary advice and management for pregnant patients with complications like gestational diabetes or anemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gynecologist</IRI>
+        <Literal xml:lang="en">Gynecologist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HCG_Test</IRI>
+        <Literal xml:lang="en">A laboratory test designed to measure the level of human chorionic gonadotropin (hCG), a hormone produced during pregnancy. The test can be used qualitatively—to simply confirm the presence of the hormone—or quantitatively—to determine the exact concentration, which is useful for monitoring pregnancy progression or diagnosing hCG-related disorders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HCG_Test</IRI>
+        <Literal xml:lang="en">HCG_Test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HealthExtensionWorker</IRI>
+        <Literal xml:lang="en">Trained individuals who provide basic health services, education, and support within their communities. They often act as a bridge between the healthcare system and the community</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HealthExtensionWorker</IRI>
+        <Literal xml:lang="en">HealthExtensionWorker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HealthProfessional</IRI>
+        <Literal xml:lang="en">HealthcareProvider involved in the diagnosis and treatment of pregnancy complications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HealthProfessional</IRI>
+        <Literal xml:lang="en">HealthProfessional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lab-Tests</IRI>
+        <Literal xml:lang="en">Medical diagnostic procedures conducted in a laboratory setting to analyze biological samples and assess health conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lab-Tests</IRI>
+        <Literal xml:lang="en">Lab-Tests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MaternalFetalMedicineSpecialist</IRI>
+        <Literal xml:lang="en">An obstetrician with additional training in high-risk pregnancies. They focus on managing complications that may arise during pregnancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaternalFetalMedicineSpecialist</IRI>
+        <Literal xml:lang="en">MaternalFetalMedicineSpecialist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Medical</IRI>
+        <Literal xml:lang="en">A clinical process that uses pharmacologic interventions to safely terminate an early pregnancy without surgical procedures. This approach involves patient evaluation, administration of medications (e.g., mifepristone, misoprostol), supportive care, and systematic follow-up to ensure complete abortion and manage potential complications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medical</IRI>
+        <Literal xml:lang="en">Medical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Midwife</IRI>
+        <Literal xml:lang="en">A trained professional who assists in childbirth and provides prenatal and postnatal care. Midwives can handle low-risk pregnancies but may refer complicated cases to obstetricians</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Midwife</IRI>
+        <Literal xml:lang="en">Midwife</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NonPregnantPatient</IRI>
+        <Literal xml:lang="en">A patient who is biologically female but not currently pregnant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NonPregnantPatient</IRI>
+        <Literal xml:lang="en">NonPregnantPatient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nurse</IRI>
+        <Literal xml:lang="en">A registered nurse with advanced training who can provide prenatal care, diagnose complications, and manage treatment plans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nurse</IRI>
+        <Literal xml:lang="en">Nurse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nutritionist</IRI>
+        <Literal xml:lang="en">A specialist who can provide dietary advice and management for pregnant patients with complications like gestational diabetes or anemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nutritionist</IRI>
+        <Literal xml:lang="en">Nutritionist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obstetrician</IRI>
+        <Literal xml:lang="en">A medical doctor specializing in pregnancy, childbirth, and the postpartum period. They are primarily responsible for managing pregnancy complications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obstetrician</IRI>
+        <Literal xml:lang="en">Obstetrician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient</IRI>
+        <Literal xml:lang="en">A patient who is biologically female but not currently pregnant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PatientAge</IRI>
+        <Literal xml:lang="en">Represents the age of a patient, typically measured as the number of years since birth. This attribute is crucial for assessing risk factors, determining appropriate treatment protocols, and interpreting various clinical findings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PatientAge</IRI>
+        <Literal xml:lang="en">PatientAge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PatientGravida</IRI>
+        <Literal xml:lang="en">The count of times a female patient has been pregnant, including current pregnancy events regardless of the outcome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PatientGravida</IRI>
+        <Literal xml:lang="en">PatientGravida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PatientPara</IRI>
+        <Literal xml:lang="en">Represents the number of births a patient has delivered at or beyond a defined gestational viability, distinguishing it from total pregnancy counts (gravidity). It indicates the completed deliveries which are often critical for assessing obstetric risk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PatientPara</IRI>
+        <Literal xml:lang="en">PatientPara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PatientRecord</IRI>
+        <Literal xml:lang="en">A structured collection of medical and personal health information associated with a specific patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PatientRecord</IRI>
+        <Literal xml:lang="en">PatientRecord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pediatrician</IRI>
+        <Literal xml:lang="en">While primarily focused on children, they may be involved in cases where complications affect the newborn directly after delivery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pediatrician</IRI>
+        <Literal xml:lang="en">Pediatrician</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Preeclampsia</IRI>
+        <Literal xml:lang="en">A pregnancy complication marked by high blood pressure and signs of damage to other organ systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Preeclampsia</IRI>
+        <Literal xml:lang="en">Preeclampsia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreeclampsiaClinicalFeatures</IRI>
+        <Literal>Represent signs and symptoms associated with preeclampsia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PreeclampsiaClinicalFeatures</IRI>
+        <Literal>PreeclampsiaClinicalFeatures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreeclampsiaComplications</IRI>
+        <Literal xml:lang="en">Represents the adverse outcomes and sequelae that may arise from preeclampsia—a hypertensive disorder of pregnancy characterized by high blood pressure and proteinuria. These complications can affect both maternal and fetal health, leading to conditions such as HELLP syndrome, eclampsia, organ dysfunction, and adverse perinatal outcomes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PreeclampsiaComplications</IRI>
+        <Literal xml:lang="en">PreeclampsiaComplications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreeclampsiaTreatment</IRI>
+        <Literal xml:lang="en">Interventions aimed at managing preeclampsia, a pregnancy complication characterized by high blood pressure and organ dysfunction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PreeclampsiaTreatment</IRI>
+        <Literal xml:lang="en">PreeclampsiaTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PregnantPatient</IRI>
+        <Literal xml:lang="en">Represents a patient who is currently experiencing pregnancy. This classification is used to denote individuals who require specialized obstetric care, tracking their gestational progress, and managing prenatal conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PregnantPatient</IRI>
+        <Literal xml:lang="en">PregnantPatient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PreviousHistory</IRI>
+        <Literal xml:lang="en">Represents a comprehensive account of a patient&apos;s past medical events and conditions, including prior diagnoses, treatments, and significant health-related episodes documented before the current evaluation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PreviousHistory</IRI>
+        <Literal xml:lang="en">PreviousHistory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Proteinuria</IRI>
+        <Literal xml:lang="en">The abnormal presence of excessive protein in the urine, often indicating renal impairment or damage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Proteinuria</IRI>
+        <Literal xml:lang="en">Proteinuria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Psychiatrist</IRI>
+        <Literal xml:lang="en">Mental health professionals who may be involved in addressing psychological issues related to pregnancy complications, such as postpartum depression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Psychiatrist</IRI>
+        <Literal xml:lang="en">Psychiatrist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SupportiveCare</IRI>
+        <Literal xml:lang="en">An integrative approach of interventions and services aimed at relieving symptoms, managing side effects, and improving the quality of life for patients undergoing treatment. This care complements definitive therapies by providing physical, psychological, and social support throughout the patient journey.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SupportiveCare</IRI>
+        <Literal xml:lang="en">SupportiveCare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Surgical</IRI>
+        <Literal xml:lang="en">A clinical procedure that terminates a pregnancy through surgical means. The process typically involves dilation of the cervix followed by removal of the pregnancy tissue from the uterus using instruments such as suction devices or curettes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Surgical</IRI>
+        <Literal xml:lang="en">Surgical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Type</IRI>
+        <Literal xml:lang="en">Different types of complications that may occur during pregnancy affecting maternal and fetal health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Type</IRI>
+        <Literal xml:lang="en">Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UltrasoundTest</IRI>
+        <Literal xml:lang="en">A non-invasive diagnostic procedure that employs high-frequency sound waves to generate real-time images of internal body structures. It is widely used in assessing soft tissue, guiding biopsies, evaluating vascular conditions, and monitoring fetal development during pregnancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UltrasoundTest</IRI>
+        <Literal xml:lang="en">UltrasoundTest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Urinalysis</IRI>
+        <Literal xml:lang="en">A laboratory test that examines a urine sample to identify and quantify substances, such as proteins, glucose, cells, and crystals, in order to assess kidney function and detect infections or metabolic disordersA laboratory test that examines a urine sample to identify and quantify substances, such as proteins, glucose, cells, and crystals, in order to assess kidney function and detect infections or metabolic disordersA laboratory test that examines a urine sample to identify and quantify substances, such as proteins, glucose, cells, and crystals, in order to assess kidney function and detect infections or metabolic disorders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Urinalysis</IRI>
+        <Literal xml:lang="en">Urinalysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasClinicalFeature</IRI>
+        <Literal>Functional: Each complication can have multiple clinical features.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasClinicalFeature</IRI>
+        <Literal xml:lang="en">Links pregnancy complication  its symptoms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasClinicalFeature</IRI>
+        <Literal xml:lang="en">hasClinicalFeature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFetalMovement</IRI>
+        <Literal xml:lang="en">Complain frequency and quality of movements made by the fetus, often assessed during pregnancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasFetalMovement</IRI>
+        <Literal xml:lang="en">FetalMovement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
